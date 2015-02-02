@@ -1,5 +1,5 @@
-define(['knockout-utilities', 'router', 'fresque'],
-    function(knockoutUtilities, router, fresque) {
+define(['knockout-utilities', 'router', 'modaler', 'fresque'],
+    function(knockoutUtilities, router, modaler, fresque) {
     	'use strict';
         
         var Components = function(){};
@@ -20,6 +20,13 @@ define(['knockout-utilities', 'router', 'fresque'],
         	
         	knockoutUtilities.registerComponent('test-component');
         	knockoutUtilities.registerComponent('test2-component');
+        	
+        	modaler.registerModal('initializing', {
+                title: 'Initializing',
+                htmlOnly: true,
+                backdrop: 'static',
+                keyboard: false
+        	});
          	// [Scaffolded component registrations will be inserted here. To retain this feature, don't remove this comment.]
 
         };

@@ -23,8 +23,9 @@ define([
         dialoger.init();
         modaler.init();
 
-        //todo: display modal of initializing
+        modaler.showModal('initializing');
         fresque.init().done(function() {
+            modaler.hideCurrentModal();
             router.init();
         });
     });
