@@ -1,0 +1,19 @@
+{
+    "id": "test2",
+    "template": "base",
+    "url": "test2",
+    "components": [{
+            "id": "test2",
+            "name": "test2-component",
+            "type": "component",
+            "placeholder": "content",
+            "params": null
+        },
+        {
+            "id": "footer",
+            "name": "test-component",
+            "type": "component",
+            "placeholder": "footer",
+            "params": null
+        }]
+}

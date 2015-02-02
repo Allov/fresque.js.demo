@@ -1,0 +1,28 @@
+{
+    "id": "test",
+    "template": "base",
+    "url": "test",
+    "components": [{
+            "id": "test",
+            "name": "test-component",
+            "type": "component",
+            "placeholder": "content",
+            "params": null
+        },
+        {
+            "id": "test2",
+            "name": "test2-component",
+            "type": "dialog",
+            "placeholder": "content",
+            "params": {
+                "title": "Test title"
+            }
+        },
+        {
+            "id": "footer",
+            "name": "test2-component",
+            "type": "component",
+            "placeholder": "footer",
+            "params": null
+        }]
+}
