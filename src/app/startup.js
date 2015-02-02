@@ -11,7 +11,7 @@ define([
         'use strict';
 
         components.registerComponents();
-        
+
         knockoutConfigurator.configure();
 
         ko.applyBindings({
@@ -19,7 +19,7 @@ define([
             dialoger: dialoger,
             modaler: modaler
         });
-        
+
         dialoger.init();
         modaler.init();
 
